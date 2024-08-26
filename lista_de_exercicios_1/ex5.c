@@ -3,7 +3,7 @@
 segunda variavel. Escreva o conte ´ udo das 2 vari ´ aveis na tela. */
 
 
-#include <bits/stdc++.h>
+#include <stdio.h>
 
 //declarando funcao
 int maior(int *p_A,int *p_B){

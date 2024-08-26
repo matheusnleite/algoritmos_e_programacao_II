@@ -2,7 +2,7 @@
 que retorne a soma do dobro dos dois numeros lidos. A func¸ ´ ao dever ˜ a armazenar o dobro ´
 de A na propria vari ´ avel A e o dobro de B na pr ´ opria vari ´ avel B.*/
 
-#include <bits/stdc++.h>
+#include <stdio.h>
 
 int soma_do_dobro(int *P_A, int *P_B){
     *P_A = *P_A * 2;

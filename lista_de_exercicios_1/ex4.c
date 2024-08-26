@@ -3,7 +3,7 @@
 variaveis A e B por exemplo e, ap ´ os a execuc¸ ´ ao da func¸ ˜ ao, A conter ˜ a o valor de B e B ´
 tera o valor de A. */
 
-#include <bits/stdc++.h>
+#include <stdio.h>
 
 //declarando a funcao troca
 int troca(int *p_A, int *p_B){ //os ponteiros recebem o endereço de memoria das variaveis

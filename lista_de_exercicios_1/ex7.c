@@ -4,7 +4,7 @@ armazenar o resultado na variavel A. Esta func¸ ´ ao n ˜ ao dever ˜ a possui
 modificar o valor do primeiro parametro. Imprima os valores de A e B na func¸ ˜ ao principal. */
 
 
-#include <bits/stdc++.h>
+#include <stdio.h>
 //declarando a funcao de soma
 
 int soma(int *P_A, int b){

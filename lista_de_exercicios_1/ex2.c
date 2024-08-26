@@ -1,7 +1,7 @@
 /*Escreva um programa que contenha duas variaveis inteiras. Compare seus enderec¸os e ´
 exiba o maior endereco*/
 
-#include <bits/stdc++.h>
+#include <stdio.h>
 
 int main(){
     //declarando as variaveis
