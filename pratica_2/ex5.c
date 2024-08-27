@@ -6,7 +6,7 @@ Sempre que precisar trocar valores de lugar, deve-se usar um ponteiro também. *
 
 int main(){
     //declarando array
-    int array[5];
+    int array[10];
     int cont=0; //contador para auxiliar na troca de valores
     int aux;
 
@@ -16,16 +16,16 @@ int main(){
     int *p_aux = &aux;
 
     //lendo array
-    for(int i=0;i<5;i++){
+    for(int i=0;i<10;i++){
         printf("Digite o valor da posicao %d: ",i);
         scanf("%d",(p_array + i));
     }
 
 
     //ordenando os valores
-    for(int i=0;i<5;i++){
+    for(int i=0;i<10;i++){
     cont = i;
-        while(cont<5){
+        while(cont<10){
             if(*(p_array+i)>*(p_array+cont)){ //compara um valor na posicao i com todos os valores do array usando o cont como indice
                 aux = *(p_array+i);
                 *(p_array+i) = *(p_array+cont);
@@ -38,7 +38,7 @@ int main(){
 
     //imprimindo valores
     printf("Valores ordenados\n");
-    for(int i=0;i<5;i++){
+    for(int i=0;i<10;i++){
         printf("%d\n",*(p_array+i));
 
     }
