@@ -12,6 +12,11 @@ int main(){
     int limite = 10; //quantos elementos o codigo deve imprimir
     int *p_vetor = (int *)calloc(tamanho,sizeof(int)); //usando a funcao calloc
 
+    if(p_vetor == NULL){
+            printf("Erro ao alocar memoria!\n");
+            return 1;
+        }
+
     //Atribuindo para cada elemento do vetor o valor do seu índice.
     for (int i = 0; i < tamanho; i++)
     {
