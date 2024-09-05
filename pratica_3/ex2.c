@@ -15,6 +15,12 @@ int main(){
     //alocando dinamicamente memoria para o vetor
     int *p_vetor;
     p_vetor = (int *) malloc(tamanho*sizeof(int));
+    
+    //se nao tiver espaço na memoria
+    if(p_vetor == NULL){
+            printf("Erro ao alocar memória!\n");
+            return 1;
+        }
 
     //lendo valores do vetor
     for (int i = 0; i < tamanho; i++)
