@@ -26,10 +26,14 @@ int main(){
         scanf("%d",p_vetor + i);
     }
 
+    //imprimindo valores
+
     for(i=0;i<5;i++){
         printf("Valor da posicao %d: %d\n",i,*(p_vetor+i));
     }
 
+    //liberando espaço na memoria
+    free(p_vetor);
 
 
 
