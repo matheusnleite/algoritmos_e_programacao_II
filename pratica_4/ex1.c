@@ -17,8 +17,18 @@ int main() {
     //alocando dinamicamente a matriz
     int **matriz = (int **)malloc(linhas*sizeof(int *));
 
+    if(*matriz == NULL){
+        printf("Erro ao alocar a matriz!\n");
+        return 1;
+    }
+
     for(int i=0; i<linhas; i++){
         matriz[i] = (int*)malloc(colunas*sizeof(int));
+        
+        if(matriz == NULL){
+        printf("Erro ao alocar a matriz!\n");
+        return 1;
+        }
     }
     
     //lendo a matriz
