@@ -15,7 +15,7 @@ parcial dos alunos com média final acima da média da turma*/
 
 
 
-#define qtdalunos 2
+#define qtdalunos 40
 
 float calculaMediaEMaiorEMenorNota(float *p_media, float n1, float n2, float n3, float *p_maiorNota, float *p_menorNota);
 
